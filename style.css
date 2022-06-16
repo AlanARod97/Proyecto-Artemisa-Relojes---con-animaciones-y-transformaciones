@@ -1,0 +1,696 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------ESTILO PAGE INDEX----------------*/
+
+/*HeaderIndex*/
+.portada{
+    display: flex;
+    height: 190px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    border-top: 4px solid goldenrod;
+    border-right: 1px solid goldenrod;
+    border-left: 1px solid goldenrod;
+    
+}
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    list-style-type: none;
+    border-right: 1px solid goldenrod;
+    border-bottom: 4px solid goldenrod;
+    border-left: 1px solid goldenrod;
+}
+
+
+.estiloLetrasNav{
+    text-decoration: none;
+    color: rgb(214, 213, 213);
+    border: 1px solid rgb(214, 213, 213);
+}
+
+/*MainIndex*/
+
+.containerMain{
+    background-color: ivory;
+    height: 200vh;
+    width: 100%;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white ;
+}
+ .imagenMain{
+     height: 90vh;
+     width: 100%;
+     object-fit: cover;
+     border-bottom: 4px solid goldenrod;
+     border-radius: 6px;
+}
+
+.botonProductos{
+    display: flex;
+    justify-content: center;
+}
+
+.botonQuienesSomos{
+    display: flex;
+    justify-content: center;
+}
+
+.estiloBotonProductos{
+    height: 10vh;
+    width: 30vw;
+    background-color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-size:x-large ;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 50px 4px 10px 4px;
+    border: 1px solid white;
+    border-radius: 6px;
+    box-shadow: 0px 10px 30px #000;
+}
+
+.estiloBotonQuienesSomos{
+    height: 10vh;
+    width: 30vw;
+    background-color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-size:x-large ;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 50px 4px 10px 4px;
+    border: 1px solid white;
+    border-radius: 6px;
+    box-shadow: 0px 10px 30px #000;
+}
+
+/*FooterIndex*/
+
+.contenedorFooterIndex{
+    display: flex;
+    background-color: #000;
+    width: 100%;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white ;
+    box-shadow: 10px 10px 30px #000;
+
+}
+
+.imagenFooterIndex{
+    width: 6vw;
+    height: 6vh;
+    
+    
+}
+
+.tituloFooterIndex{
+    font-size: x-large;
+    color: whitesmoke;
+    
+}
+
+
+
+/*---------------------ESTILO PAGE PRODUCTOS----------------------*/
+
+/*HeaderProductos*/
+
+.portadaProductos{
+    display: flex;
+    height: 190px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    border-top: 4px solid goldenrod;
+    border-right: 1px solid goldenrod;
+    border-left: 1px solid goldenrod;
+
+}
+
+.navBarProductos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    list-style-type: none;
+    border-right: 1px solid goldenrod;
+    border-bottom: 4px solid goldenrod;
+    border-left: 1px solid goldenrod;
+
+
+}
+
+.estiloLetrasNavProductos{
+    text-decoration: none;
+    color: rgb(214, 213, 213);
+    border: 1px solid rgb(214, 213, 213);
+}
+
+/*MainProductos*/
+
+.contenedorMainProductos{
+    background-color: ivory;
+    width: 100%;
+    height: 140vh;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.estiloTituloParaEllas{
+    width: 50%;
+    height: 3vh;
+    border-bottom: 3px solid black;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    padding-bottom: 20px;
+
+}
+
+.estiloTituloParaEllos{
+    width: 50%;
+    height: 3vh;
+    border-bottom: 3px solid black;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    padding-bottom: 20px;
+    
+
+}
+
+.estiloLetrasTituloParaEllas{
+    font-family: dancing script;
+    font-size: xx-large;
+    color: goldenrod;
+    
+}
+
+.estiloLetrasTituloParaEllos{
+    font-family: dancing script;
+    font-size: xx-large;
+    color: goldenrod;
+    text-align: end;
+}
+
+.contenedorPlaylist{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+    border: 3px solid black;
+    box-shadow: 0px 10px 30px black;
+
+}
+
+.asidePlaylistProductos{
+    background-color: #000;
+    width: 30vw;
+    height: 50vh;
+    border-right: 3px solid black;
+    color: goldenrod;
+}
+
+.estiloLetrasAsidePlaylistProductos{
+    font-size:x-large ;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    font-family: abril fatface;
+    
+}
+
+.playlistProductos{
+    width: 100%;
+
+}
+
+
+
+
+
+/*FooterProductos*/
+
+.contenedorFooterProductos{
+    display: flex;
+    background-color: #000;
+    width: 100%;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white ;
+    box-shadow: 0px 10px 30px #000;
+
+}
+
+.imagenFooterProductos{
+    width: 6vw;
+    height: 6vh;
+
+}
+
+
+.tituloFooterProductos{
+    font-size: x-large;
+    color: whitesmoke;
+
+}
+
+
+
+/*---------------------ESTILO PAGE SALE!--------------*/
+
+
+/*HeaderSale*/
+
+.portadaSale{
+    display: flex;
+    height: 190px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    border-top: 4px solid goldenrod;
+    border-right: 1px solid goldenrod;
+    border-left: 1px solid goldenrod;
+    
+
+}
+
+.navBarSale{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    list-style-type: none;
+    border-right: 1px solid goldenrod;
+    border-bottom: 4px solid goldenrod;
+    border-left: 1px solid goldenrod;
+
+}
+
+.estiloLetrasNavSale{
+    text-decoration: none;
+    color: rgb(214, 213, 213);
+    border: 1px solid rgb(214, 213, 213);
+}
+
+/*MainSale*/
+
+.contenedorMainSale{
+    background-color: ivory;
+    width: 100%;
+    height: 140vh;
+    margin-right: 2px;
+    margin-left: 2px;
+
+}
+
+
+.titulo1MainSale{
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    background-color: #000;
+    box-shadow: 0px 10px 30px #000;
+    text-align: center;
+    color: goldenrod;
+    font-family: anton;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.titulo2MainSale{
+    width: 50%;
+    height: 3vh;
+    border-bottom: 3px solid black;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    padding-bottom: 20px;
+    color: goldenrod;
+    font-size: xx-large;
+    font-family: roboto;
+
+
+}
+
+.titulo3MainSale{
+    width: 50%;
+    height: 3vh;
+    border-bottom: 3px solid black;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    padding-bottom: 20px;
+    color: goldenrod;
+    font-size: xx-large;
+    font-family: roboto; 
+}
+
+
+
+
+
+
+
+/*FooterSale*/
+
+.contenedorFooterSale{
+    display: flex;
+    background-color: #000;
+    width: 100%;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white ;
+    box-shadow: 0px 10px 30px #000;
+
+
+}
+
+.imagenFooterSale{
+    width: 6vw;
+    height: 6vh;
+}
+
+.tituloFooterSale{
+    font-size: x-large;
+    color: whitesmoke;
+
+}
+
+
+
+/*------------ESTILO PAGE QUIENES SOMOS-------------*/
+
+/*HeaderQuienesSomos*/
+
+.portadaQuienesSomos{
+    display: flex;
+    height: 190px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    border-top: 4px solid goldenrod;
+    border-right: 1px solid goldenrod;
+    border-left: 1px solid goldenrod;
+
+}
+
+
+
+.navBarQuienesSomos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    list-style-type: none;
+    border-right: 1px solid goldenrod;
+    border-bottom: 4px solid goldenrod;
+    border-left: 1px solid goldenrod;
+
+
+}
+
+.estiloLetrasNavQuienesSomos{
+    text-decoration: none;
+    color: rgb(214, 213, 213);
+    border: 1px solid rgb(214, 213, 213);
+}
+
+/*MainQuienesSomos*/
+
+.contenedorMainQuienesSomos{
+    background-color: ivory;
+    width: 100%;
+    height: 100vh;
+    margin-right: 2px;
+    margin-left: 2px;
+    
+
+}
+
+.cajaContenidoMainQuienesSomos{
+    display: flex;
+    width: 70vw;
+    margin: 10% 0% 5% 15%
+}
+
+.imagenMainQuienesSomos{
+    width: 40vw;
+    height: 50vh;
+    box-shadow: 0px 10px 30px #000;
+    margin-right: 7%;
+    
+
+}
+
+
+
+
+.titulo1MainQuienesSomos{
+    font-family: dancing script;
+    font-size: xx-large;
+    color: goldenrod;
+    text-align: left;
+    margin-bottom: 3%;
+    
+}
+
+.titulo2MainQuienesSomos{
+    font-size: xx-large;
+    margin-bottom: 3%;
+}
+
+.estiloLetrasMainQuienesSomos{
+    color: rgba(0, 0, 0, 0.342);
+    font-size: large;
+}
+
+
+
+
+
+
+/*FooterQuienesSomos*/
+
+.contenedorFooterQuienesSomos{
+    display: flex;
+    background-color: #000;
+    width: 100%;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white ;
+    box-shadow: 0px 10px 30px #000;
+
+}
+
+.tituloFooterQuienesSomos{
+    font-size: x-large;
+    color: whitesmoke;
+
+}
+
+.imagenFooterQuienesSomos{
+    width: 6vw;
+    height: 6vh;
+
+}
+
+
+/*--------------------ESTILO PAGE CONTACTO-----------------*/
+
+/*HeaderContacto*/
+
+.portadaContacto{
+    display: flex;
+    height: 190px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    border-top: 4px solid goldenrod;
+    border-right: 1px solid goldenrod;
+    border-left: 1px solid goldenrod;
+
+
+}
+
+.navBarContacto{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    list-style-type: none;
+    border-right: 1px solid goldenrod;
+    border-bottom: 4px solid goldenrod;
+    border-left: 1px solid goldenrod;
+
+
+}
+
+.estiloLetrasNavContacto{
+    text-decoration: none;
+    color: rgb(214, 213, 213);
+    border: 1px solid rgb(214, 213, 213);
+}
+
+
+/*MainContacto*/
+
+.contenedorMainContacto{
+    background-color: ivory;
+    width: 100%;
+    height: 90vh;
+    margin-right: 2px;
+    margin-left: 2px;
+    
+}
+
+.titulo1MainContacto{
+    font-family: dancing script;
+    font-size: xx-large;
+    color: goldenrod;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.titulo2MainContacto{
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+
+.formularioMainContacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw;
+    height: 30vh;
+    margin: 0% 0% 0% 5%;
+
+}
+
+.input1{
+    width: 20vw;
+    height: 5vh;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.input2{
+    width: 20vw;
+    height: 5vh;
+    margin-bottom: 1%;
+}
+
+.textArea{
+    width: 20vw;
+    height: 20vh;
+    margin-bottom: 1%;
+}
+
+.input3{
+    width: 10vw;
+    height: 4vh;
+    margin-bottom: 1%;
+
+}
+
+.input4{
+    width: 10vw;
+    height: 4vh;
+    margin-bottom: 1%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*FooterContacto*/
+
+.contenedorFooterContacto{
+    display: flex;
+    background-color: #000;
+    width: 100%;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white ;
+    box-shadow: 0px 10px 30px #000;
+
+}
+
+.tituloFooterContacto{
+    font-size: x-large;
+    color: whitesmoke;
+
+}
+
+.imagenFooterContacto{
+    width: 6vw;
+    height: 6vh;
+    
+}
+
+
+
+
+
+
+
+
